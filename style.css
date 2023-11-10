@@ -1,3 +1,42 @@
+#nav {
+    padding-top: 1px;
+    padding-bottom: 1px;
+}
+a {
+    font-size: 12px;
+    margin-left: 2em;
+}
+.navbar-toggler {
+    padding:3px 2px !important;
+  }
+.card {
+    background-color: #fafafa;
+    height: 75vh;
+    overflow: hidden;
+    padding-bottom: 40px;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.card-body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.card-text {
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight:500;
+}
+.card-body a {
+    font-size: 1.1rem;
+}
+.row {
+    margin-top: 2%;
+}
 .a1 {
     text-decoration: none;
     margin-top: 2%;
@@ -83,4 +122,64 @@
 .h6 {
     text-align: center;
     font-size: 1.0rem;
+}
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+@media (max-width: 590px) {
+   .card img {
+    width: 60%;
+   }
+   .h1{
+    
+    font-size: 1.8rem;
+  
+}
+.h2 {
+    
+    font-size: 1.2rem;
+    margin-bottom:1%;
+}
+.h6 {
+    text-align: center;
+    font-size: 1.0rem;
+}
+.a2 {
+    font-size: 18px;
+}
+
+
+}
+
+@media (min-width: 591px) and (max-width: 670px) {
+    .card img {
+        width:70% ;
+    
+    }
+    #img2 {
+        margin-bottom: 40px;
+        margin-top: 30px;
+    }
+
+    #img4 {
+        margin-bottom: 40px;
+        margin-top: 50px;
+
+    }
+    .h1{
+    
+        font-size: 1.8rem;
+      
+    }
+    .h2 {
+        
+        font-size: 1.2rem;
+        margin-bottom:1%;
+    }
+    .h6 {
+        text-align: center;
+        font-size: 1.0rem;
+    }
 }
